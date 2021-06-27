@@ -1,11 +1,8 @@
 const express = require("express")
-const app= express();
 const bountyRouter = express.Router()
 const {v4: uuidv4 }= require ('uuid');
 
-const PORT = 3001
 
-app.use(express.json())
 
 const bountyHunter = [
     {
@@ -35,7 +32,7 @@ const bountyHunter = [
 ];
 
 
-app.post("/", (req, res) => {
+bountyRouter.post("/", (req, res) => {
     const newBountyHunter = req.body;
     newBountyHunter._id = uuidv4();
     bountyHunter.push(newBountyHunter);
@@ -43,11 +40,11 @@ app.post("/", (req, res) => {
 }) 
 
 // Routes
-app.get('/', (req, res) => {
+bountyRouter.get('/', (req, res) => {
     res.send(bountyHunter)
 })
 
-app.listen(3001)
+
 
 
 
