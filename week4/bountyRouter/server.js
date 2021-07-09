@@ -7,5 +7,5 @@ app.use(express.json())
 app.use("/bounties", require("./bountyRouter.js"))
 
 app.listen(8000, () => {
-    console.log("This server is running on port 7000")
+    console.log("This server is running on port 8000")
 })
