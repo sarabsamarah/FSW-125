@@ -1,5 +1,5 @@
 html {
-  background-image: url("mando.jpg");
+  background-image: url("https://user-images.githubusercontent.com/76128450/126026439-8c8176b9-9fa1-4bdf-b079-43d1b1cc5aa0.jpg");
   background-position: center;
   background-size:cover;
   background-repeat: none;
@@ -14,3 +14,10 @@ html {
   text-decoration: underline turquoise;
   text-align:left;
 }
+
+@media (max-width: 1400px), (min-width: 560px) {
+  .html {
+    padding: 40px 100px;
+  }
+}
+
