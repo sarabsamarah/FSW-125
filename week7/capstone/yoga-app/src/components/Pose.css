@@ -1,0 +1,48 @@
+input {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+  
+  }
+  
+  .add-btn, .delete-btn, .edit-btn{
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 25px;
+    background-color:darkorchid;
+    box-shadow: 3px 3px 2px pink;
+  }
+  
+  .poseName {
+    font-size: 42px;
+    text-decoration: underline turquoise;
+  }
+  
+  .list-container {
+    background-color: black;
+    opacity: 0.7;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    border-bottom: 5px solid lavender;
+  }
+  
+  .edit-btn {
+    background-color: tan;
+    font-size: 18px;
+    box-shadow: 3px 3px 2px grey;
+    border-radius: 10px;
+    padding: 4px;
+  }
+  
+  .delete-btn {
+    background-color: turquoise;
+    font-size: 18px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 2px grey;
+    border-radius: 10px;
+    padding: 4px;
+  }
